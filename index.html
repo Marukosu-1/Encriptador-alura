@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Enriptador | Desencriptador </title>
+    <link rel="stylesheet" href="js y css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="Imagenes/Logo.png" alt="logo de alura" class="logo">
+        <h1 class="texto-encabezdo">Enriptador | Desencriptador</h1>
+
+    </header>
+
+    <main>
+        <section>
+            
+            <div>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+
+                <h6 class="informacion">Solo letras minusculas y sin acento</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+                
+            
+            
+        </section>
+        <section>
+
+            <div class="text-mensaje" id="sinMensaje"> 
+            
+                <!-- <img src="/Imagenes/Muñeco.png" alt="logo de muñeco de alura" id="muñeco">
+                
+                
+                <div class="mensaje-encriptado" id="mensaje-desencriptarr">
+                   
+                    
+                    <h3 class="informacion-encriptado">Ningun mensaje fue encontrado</h3>
+                    <p class="informacion-encriptado">Ingrese el texto que desea Encriptar o Desencriptar</p>
+                    
+                </div>
+                 -->
+                
+                 <textarea  id="mensaje-final" class="mensaje" cols="16" rows="10" readonly></textarea>
+                 
+                 <button id="btn-copy" onclick="copiare()">Copiar</button>
+            </div>
+
+            <div id="conMensaje">
+                
+                
+            </div>
+            
+
+        </section>
+
+
+
+    </main>
+
+<script src="js y css/script.js"> </script>
+
+
+    
+</body>
+</html>
+
